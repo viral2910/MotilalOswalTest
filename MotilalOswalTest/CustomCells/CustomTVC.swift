@@ -22,6 +22,7 @@ class CustomTVC: UITableViewCell {
         }
     }
     
+    //Cell initializer
     override func awakeFromNib() {
         super.awakeFromNib()
         //Initialization code
