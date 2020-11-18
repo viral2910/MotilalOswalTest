@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class EmpTVDataSource<CELL : UITableViewCell,Value> : NSObject, UITableViewDataSource {
+class EmpTVSource<CELL : UITableViewCell,Value> : NSObject, UITableViewDataSource {
     
     private var cellIdentifier : String!
     private var items : [Value]!

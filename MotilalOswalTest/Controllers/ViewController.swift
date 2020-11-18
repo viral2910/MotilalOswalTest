@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     private var ViewModel : EmpViewModel!
     
     //Instance of Tableview delegates
-    private var dataSource : EmpTVDataSource<CustomTVC,Employee>!
+    private var dataSource : EmpTVSource<CustomTVC,Employee>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
     //Update Tableview data with model details
     func updateDataSource(){
-        self.dataSource = EmpTVDataSource(cellIdentifier: "CustomTVC", items: self.ViewModel.empData.data, configureCell: { (cell, evm) in
+        self.dataSource = EmpTVSource(cellIdentifier: "CustomTVC", items: self.ViewModel.empData.data, configureCell: { (cell, evm) in
             cell.employeeIdLabel.text = "Employee id : \(evm.id)"
             cell.employeeNameLabel.text = "Employee Name : \(evm.employeeName)"
         })
