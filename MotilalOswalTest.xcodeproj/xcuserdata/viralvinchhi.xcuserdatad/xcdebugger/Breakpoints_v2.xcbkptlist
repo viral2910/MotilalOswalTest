@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BC079255-CC1F-4058-8EE7-8DA488674083"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E58C43A-ABFE-479E-9113-BC7A7FB48B19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MotilalOswalTest/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "updateDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEDD0284-14B4-4F9F-B98A-CB77939F7F9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MotilalOswalTest/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "UIUpdate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DEDD0284-14B4-4F9F-B98A-CB77939F7F9B - f93c05d16501cca3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MotilalOswalTest.ViewController.callToViewModelForUIUpdate() -&gt; ()"
+                  moduleName = "MotilalOswalTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viralvinchhi/Desktop/MotilalOswalTest/MotilalOswalTest/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "DEDD0284-14B4-4F9F-B98A-CB77939F7F9B - d81990fe344da28a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MotilalOswalTest.ViewController.callToViewModelForUIUpdate() -&gt; ()"
+                  moduleName = "MotilalOswalTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viralvinchhi/Desktop/MotilalOswalTest/MotilalOswalTest/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
