@@ -17,6 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUE-1W-OLp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="94"/>
+                                <color key="backgroundColor" red="0.90580624340000004" green="0.66324895620000002" blue="0.27749589089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6SW-DM-u9f">
                                 <rect key="frame" x="0.0" y="94" width="414" height="768"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -75,8 +79,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6SW-DM-u9f" secondAttribute="trailing" id="HGO-nF-uKj"/>
                             <constraint firstItem="6SW-DM-u9f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HjJ-un-g7B"/>
                             <constraint firstItem="6SW-DM-u9f" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ocl-kC-Kuu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CUE-1W-OLp" secondAttribute="trailing" id="RqA-eE-V7a"/>
+                            <constraint firstItem="CUE-1W-OLp" firstAttribute="bottom" secondItem="GIu-bA-RNO" secondAttribute="bottom" id="Spy-nd-Ce7"/>
+                            <constraint firstItem="CUE-1W-OLp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TuU-3u-X5D"/>
                             <constraint firstItem="GIu-bA-RNO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aVl-Ce-kw9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GIu-bA-RNO" secondAttribute="trailing" id="jVE-ab-6EI"/>
+                            <constraint firstItem="CUE-1W-OLp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ysh-AR-Jxg"/>
                             <constraint firstItem="GIu-bA-RNO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zKc-aA-hZy"/>
                         </constraints>
                     </view>

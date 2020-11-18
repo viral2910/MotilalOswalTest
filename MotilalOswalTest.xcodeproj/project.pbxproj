@@ -19,6 +19,7 @@
 		5AE46D79256540CF0058B248 /* Emp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE46D78256540CF0058B248 /* Emp.swift */; };
 		5AEED17A256541D400763852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEED178256541D400763852 /* Main.storyboard */; };
 		5AEED180256542B300763852 /* MotilalOswal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AEED17F256542B300763852 /* MotilalOswal.jpg */; };
+		5AEED1932565A0F700763852 /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEED1922565A0F700763852 /* IJProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5AE46D78256540CF0058B248 /* Emp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emp.swift; sourceTree = "<group>"; };
 		5AEED179256541D400763852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AEED17F256542B300763852 /* MotilalOswal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MotilalOswal.jpg; sourceTree = "<group>"; };
+		5AEED1922565A0F700763852 /* IJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		5AE46D5725653F9E0058B248 /* MotilalOswalTest */ = {
 			isa = PBXGroup;
 			children = (
+				5AEED1902565A0F700763852 /* Libraries */,
 				5AEED17D2565427D00763852 /* Assets */,
 				5AE46D7C256541060058B248 /* Controllers */,
 				5AE46D7A256540EB0058B248 /* Common */,
@@ -139,6 +142,22 @@
 				5AEED17F256542B300763852 /* MotilalOswal.jpg */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		5AEED1902565A0F700763852 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5AEED1912565A0F700763852 /* ActivityIndicator */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		5AEED1912565A0F700763852 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				5AEED1922565A0F700763852 /* IJProgressView.swift */,
+			);
+			path = ActivityIndicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +238,7 @@
 				5AE46D70256540250058B248 /* APICall.swift in Sources */,
 				5AE46D5925653F9E0058B248 /* AppDelegate.swift in Sources */,
 				5AE46D6D25653FE80058B248 /* CustomTVC.swift in Sources */,
+				5AEED1932565A0F700763852 /* IJProgressView.swift in Sources */,
 				5AE46D79256540CF0058B248 /* Emp.swift in Sources */,
 				5AE46D5B25653F9E0058B248 /* SceneDelegate.swift in Sources */,
 			);

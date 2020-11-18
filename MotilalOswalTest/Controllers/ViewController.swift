@@ -26,10 +26,12 @@ class ViewController: UIViewController {
     
     //UIUpdate with model
     func UIUpdate(){
+        IJProgressView.shared.showProgressView()
         self.ViewModel = EmpViewModel()
         self.ViewModel.ModelToController = {
             self.updateDataSource()
         }
+        IJProgressView.shared.hideProgressView()
     }
     
     //Update Tableview data with model details
