@@ -21,17 +21,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+            IJProgressView.shared.showProgressView()
         UIUpdate()
     }
     
     //UIUpdate with model
     func UIUpdate(){
-        IJProgressView.shared.showProgressView()
         self.ViewModel = EmpViewModel()
         self.ViewModel.ModelToController = {
             self.updateDataSource()
         }
-        IJProgressView.shared.hideProgressView()
     }
     
     //Update Tableview data with model details
@@ -44,6 +44,8 @@ class ViewController: UIViewController {
             self.TableView.dataSource = self.dataSource
             self.TableView.reloadData()
         }
+        
+        IJProgressView.shared.hideProgressView()
     }
     
 }

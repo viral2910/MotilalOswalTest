@@ -16,7 +16,8 @@ class EmpTVSource<CELL : UITableViewCell,Value> : NSObject, UITableViewDataSourc
     var EmpCell : (CELL, Value) -> () = {_,_ in }
     
     //creating Cell
-    init(cellIdentifier : String, items : [Value], configureCell : @escaping (CELL, Value) -> ()) {
+    init(cellIdentifier : String, items : [Value], configureCell : @escaping (CELL, Value) -> ())
+    {
         self.cellIdentifier = cellIdentifier
         self.items =  items
         self.EmpCell = configureCell

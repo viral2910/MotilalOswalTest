@@ -14,6 +14,7 @@ struct AllEmployees: Decodable {
     let data: [Employee]
 }
 
+
 // MARK: - Structure of Employee
 struct Employee: Decodable {
     let id, employeeName, employeeSalary, employeeAge: String

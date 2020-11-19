@@ -20,6 +20,7 @@ class EmpViewModel : NSObject {
         }
     }
     
+    
     //instance of model
     var ModelToController : (() -> ()) = {}
     
